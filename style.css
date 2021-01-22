@@ -40,6 +40,10 @@ body {
   transition: transform 0.5s linear;
 }
 
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
 .circle button {
   position: absolute;
   top: 50%;
@@ -126,6 +130,5 @@ nav ul li + li + li {
 }
 
 .content img {
-  object-fit: cover;
   max-width: 100%;
 }
